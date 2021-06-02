@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Flex Container */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    max-width: 1000px;
+    border-color: red;    
+}
+
+/* Flex Items */
+.visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    color: white;
+    width: 200px;
+    height: 40px;
+    position: relative;    ;
+    background: #FF764E;
+  }
+  .visit:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .visit:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #FF764E;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  .visit:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FF764E;
+    width: 200px;
+    height: 40px;
+    position: relative;    ;
+    background: white;
+  }
+  .visit:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .visit:hover:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  .learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    color: white;
+    width: 200px;
+    height: 40px;
+    position: relative;    ;
+    background: #5ED3EB;
+  }
+  .learn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .learn:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #5ED3EB;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  .learn:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #5ED3EB;
+    width: 200px;
+    height: 40px;
+    position: relative;    ;
+    background: white;
+  }
+  .learn:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .learn:hover:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  
+
+}
+
+  .getinvolved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    color: white;
+    width: 200px;
+    height: 40px;
+    position: relative;    ;
+    background: #FFCD69;
+  }
+  .getinvolved:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .getinvolved:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #FFCD69;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+ 
+  .getinvolved:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFCD69;
+    width: 200px;
+    height: 40px;
+    position: relative;    ;
+    background: white;
+  }
+  .getinvolved:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .getinvolved:hover:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+.containerimg {
+    max-width: 100vh;
+    align-self: flex-start;
+  }
+
+h1 {
+    font-family: "Chelsea Market";
+    font-size: 36px;
+    text-align: center;
+}
+
+.parkguide p {
+    font-family: "Roboto Mono";
+    font-size: 20px; 
+    text-align: center;  
+}
+
+.valley {
+    background-color: #DDB9A3;    
+}
+
+.fireclass {
+    font-family: "Roboto Mono";
+    font-size: 20px; 
+    text-align: center; 
+}
+
+.fireimg {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rv {
+    font-family: "Roboto Mono";
+    font-size: 20px; 
+    text-align: center; 
+}
+
+.rvimg {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_img {
+    max-width: 150vh;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
